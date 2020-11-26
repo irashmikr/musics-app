@@ -72,7 +72,7 @@ main {
     width: 90%;
     height: 60px;
     left: 60px;
-    top: 240px;
+    top: 260px;
 }
 
 .video-header h1 {
@@ -99,20 +99,20 @@ main {
 .video video {
     position: inherit;
     left: 25px;
-    top: 25px;
+    top: 35px;
 }
 
 .image-list {
     position: absolute;
     top: 400px;
-    width: 1350px;
+    width: 1300px;
     left: 60px;
 }
 
 .image-list h1 {
     position: absolute;
     top: 400px;
-    width: 1350px;
+    width: 1300px;
     left: 70px;
     text-align: center;
 }
@@ -135,4 +135,26 @@ h1:hover {
     left: 60px;
 } */
 
-#i1:hover {}
+#i1:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 15px #ccc;
+}
+
+#i2:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 15px #ccc;
+}
+
+#i3:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 15px #ccc;
+}
+
+#i4:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 15px #ccc;
+}
